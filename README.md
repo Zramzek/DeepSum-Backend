@@ -2,7 +2,7 @@
 
 A FastAPI-based backend for AI-powered PDF summarization with Q&A capabilities using Supabase and Groq.
 
-##BEFORE CLONING AND RUNNING THIS LOCALLY
+## BEFORE CLONING AND RUNNING THIS LOCALLY
 download the .h5 model from this link :
 - https://drive.google.com/drive/folders/1uCTOPmvC3jFUBBBeBhYsDfOvgTBVdxEf?usp=sharing
   
