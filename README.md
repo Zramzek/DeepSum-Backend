@@ -43,7 +43,7 @@ deepsum-backend/
 
 ### 1. Install Dependencies
 
-```bash
+```zsh
 pip install -r requirements.txt
 ```
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 Copy `.env.example` to `.env` and fill in your values:
 
-```bash
+```zsh
 cp .env.example .env
 ```
 
@@ -71,12 +71,12 @@ Place your `.h5` model and JSON config in the specified paths:
 
 ### 5. Run the Application
 
-```bash
+```zsh
 # Development
-uvicorn main:app --reload
+fastapi dev app/main.py
 
 # Production
-uvicorn main:app --host 0.0.0.0 --port 8000
+fastapi run app/main.py
 ```
 
 ## API Endpoints
